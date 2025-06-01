@@ -8,3 +8,4 @@ duckduckgo-search
 smolagents[transformers]
 smolagents[openai]
 
+langchain_community
