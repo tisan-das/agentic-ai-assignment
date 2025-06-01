@@ -3,7 +3,7 @@ import gradio as gr
 import requests
 import inspect
 import pandas as pd
-import agent
+import agent as ag
 
 # (Keep Constants as is)
 # --- Constants ---
@@ -31,7 +31,7 @@ def run_and_submit_all( profile: gr.OAuthProfile | None):
 
     # 1. Instantiate Agent ( modify this part to create your agent)
     try:
-        agent = agent.agent #BasicAgent()
+        agent = ag.agent #BasicAgent()
     except Exception as e:
         print(f"Error instantiating agent: {e}")
         return f"Error initializing agent: {e}", None
