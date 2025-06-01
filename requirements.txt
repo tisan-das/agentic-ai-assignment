@@ -1,2 +1,10 @@
 gradio
 requests
+
+
+smolagents 
+huggingface_hub
+duckduckgo-search
+smolagents[transformers]
+smolagents[openai]
+
