@@ -19,7 +19,7 @@ import os
 model = OpenAIServerModel(
     model_id="gemini-2.0-flash",
     api_base="https://generativelanguage.googleapis.com/v1beta/openai/",
-    api_key=os.GetEnv("KEY"),
+    api_key=os.getenv("KEY"),
 )
 
 
