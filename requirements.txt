@@ -8,4 +8,14 @@ duckduckgo-search
 smolagents[transformers]
 smolagents[openai]
 
+wikipedia
+arxiv
 langchain_community
+langchain_core
+
+gradio[oauth]
+
+numpy
+requests
+markdownify
+
