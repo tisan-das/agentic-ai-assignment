@@ -18,4 +18,13 @@ gradio[oauth]
 numpy
 requests
 markdownify
+pymupdf
+pandas
+matplotlib
+seaborn
+openpyxl
+
+whisper
+librosa
+python-chess
 
